@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Output</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <script>
+      /**********************************************************************************
+      |  1. VARÁVEIS & CONSTANTES
+      |
+      |      -> São espaços na memória do computador para armazenar informações.
+      |
+      |  1.1. VARIÁVEIS
+      |
+      |      -> Permite mudar os dados durante a execução do programa.
+      |
+      |      OBS: Podemos usar a palavra `let` para declarar uma variável.
+      |
+      **********************************************************************************/
+
+      var nome     = "Lindonjonson"; // string
+      var simbolo  = "$";            // string
+      var idade    = 37;             // number
+      var salario  = 1234.56;        // number
+      var estaVivo = true;           // boolean
+
+      /**********************************************************************************
+      |  1.2. CONSTANTES
+      |
+      |      -> Não permite mudar os dados durante a execução do programa.
+      |
+      **********************************************************************************/
+
+      const CPF   = "123.456.789-00"; // string
+      const ID    = 1222345;          // number
+      const PI    = 3.1415;           // number
+      const ADMIN = false;            // boolean
+
+      /**********************************************************************************
+      |  2. DATA TYPES
+      |
+      |      -> No JS temos os seguintes tipos de dados:
+      |
+      |       # number
+      |       # string
+      |       # boolean
+      |       # object
+      |       # function
+      |       # null
+      |       # undefined
+      |       # Infinity
+      |       # NaN
+      |
+      |      OBS: Usamos o operador `typeof` para mostrar o tipo de dado.
+      |
+      **********************************************************************************/
+
+      document.write(`nome:     ${typeof nome}     <br>`); // string
+      document.write(`simbolo:  ${typeof simbolo}  <br>`); // string
+      document.write(`idade:    ${typeof idade}    <br>`); // number
+      document.write(`salario:  ${typeof salario}  <br>`); // number
+      document.write(`estaVivo: ${typeof estaVivo} <br>`); // boolean
+
+      /**********************************************************************************
+      |  3. COMPLEX/ABSTRACT TYPES
+      |
+      |      -> São agrupamentos de tipos escalares (number, string, boolean)
+      |         que buscam representar estruturas ou abstrações do mundo real.
+      |
+      **********************************************************************************/
+
+      var hobby  = ["Jogar", "Comer", "Programar"]; // Objeto Array
+      var person = { nome: "Cristian", idade: 21 }; // Objeto literal
+      var set    = new Set();                       // Objeto Set
+      var action = () => "Anonymous";               // Function
+
+      document.write(`hobby:  ${typeof hobby}  <br>`);
+      document.write(`person: ${typeof person} <br>`);
+      document.write(`set:    ${typeof set}    <br>`);
+      document.write(`action: ${typeof action} <br>`);
+
+      /**********************************************************************************
+      |  4. VALORES ESPECIAS
+      |
+      |      -> São valores destinados para comportamentos atípicos da linguagem.
+      |
+      **********************************************************************************/
+
+      var _null      = null;      // Valor nulo
+      var _undefined = undefined; // Valor indefinido
+      var _infinity  = Infinity;  // Valor numérico infinito
+      var _nan       = NaN;       // Valor não numérico (mas é um number '-')
+
+      document.write(`null:      ${typeof _null}      <br>`);
+      document.write(`undefined: ${typeof _undefined} <br>`);
+      document.write(`infinity:  ${typeof _infinity}  <br>`);
+      document.write(`nan:       ${typeof _nan}       <br>`);
+
+      //********************************************************************************/
+    </script>
+  </body>
+</html>

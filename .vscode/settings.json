@@ -1,0 +1,42 @@
+{
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.userWords": [
+    "Lindonjonson",
+    "sqltools"
+  ],
+  "code-runner.runInTerminal": true,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.mouseWheelZoom": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.wordWrap": "on",
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning"
+  ],
+  "explorer.compactFolders": false,
+  "files.autoSave": "afterDelay",
+  "markdownlint.config": {
+    "default": false
+  },
+  "sqltools.connections": [
+    {
+      "database": "mysql", //Alterar
+      "driver": "MySQL",
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "name": "Databases",
+      "password": "escola",
+      "port": 3306,
+      "previewLimit": 50,
+      "server": "localhost",
+      "username": "escola"
+    }
+  ],
+  "workbench.colorTheme": "Aura Dark",
+  "workbench.iconTheme": "gruvbox-material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons"
+}
