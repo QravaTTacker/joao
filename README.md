@@ -15,12 +15,12 @@
     Repositório dedicado para as turmas 2AP e 3AP - Colégio <a href="https://www.escol.as/227157-joao-xxiii-c-m-n">João XXIII</a>. Você poderá usar esse repositório para fortalecer os conceitos passados em sala de aula com exemplos de códigos e exercícios. O repositório destinando-se às disciplinas de:
 </p>
 
-- [**Back-end**](./Tasks/backend.md)
-- [**Banco de Dados**](./Tasks/database.md)
-- [**Front-end**](./Tasks/frontend.md)
-- [**Mobile**](./Tasks/mobile.md)
-- [**Análise e Projeto de Sistemas**](./Tasks/projects.md)
-- [**Desenvolvimento de Sistemas**](./Tasks/systems.md)
+- [**Back-end**](./Tasks/3AP/backend.md)
+- [**Banco de Dados**](./Tasks/2AP/database.md)
+- [**Front-end**](./Tasks/2AP/frontend.md)
+- [**Mobile**](./Tasks/2AP/mobile.md)
+- [**Análise e Projeto de Sistemas**](./Tasks/3AP/projects.md)
+- [**Desenvolvimento de Sistemas**](./Tasks/3AP/systems.md)
 
 ## 2. Clonando o Repositório 📥
 
