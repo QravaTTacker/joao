@@ -25,16 +25,13 @@
 ## 2. Clonando o Repositório 📥
 
 <p align="justify">
-    Basta abrir o <strong>terminal</strong> e colar o comando abaixo que o repositório estará na sua máquina... 
+    Tendo o Git e o VS Code, basta abrir o <strong>terminal</strong> e colar o comando abaixo que o repositório estará na sua máquina... 
 </p>
 
-<div align="center">
-
-```c
+```shell
 git clone https://github.com/QravaTTacker/joao.git
+code joao
 ```
-
-</div>
 
 ## 3. Arquitetura de Pastas 📂
 
@@ -67,7 +64,7 @@ git clone https://github.com/QravaTTacker/joao.git
 ## 4. Extensões 🧩
 
 <p align="justify">
-    Certifique de que todas as extensões necessárias estejam instaladas...
+    Certifique de que todas as extensões necessárias estejam instaladas no VS Code...
 </p>
 
 - **Banco de Dados (2)**
