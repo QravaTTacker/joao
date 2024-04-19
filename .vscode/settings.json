@@ -33,7 +33,7 @@
       "port": 3306,
       "previewLimit": 50,
       "server": "localhost",
-      "username": "escola"
+      "username": "root" // é root ou escola :/
     }
   ],
   "workbench.colorTheme": "Aura Dark",
